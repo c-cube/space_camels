@@ -7,8 +7,10 @@ build: [
     [make "all"]
 ]
 install: [
+    ["cp" "space_camels.native" "%{bin}%/space_camels"]
 ]
 remove: [
+    ["rm" "%{bin}%/space_camels"]
 ]
 depends: [
     "ocamlfind" {build}
