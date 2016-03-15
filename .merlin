@@ -1,0 +1,6 @@
+S src
+B _build/**
+B +threads
+PKG containers
+PKG notty.lwt
+PKG lwt.ppx
