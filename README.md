@@ -13,3 +13,7 @@ Just type `make` and you're ready to `./space_camels.native`!
 
 Or use `opam pin`.
 
+## Amazing graphics
+
+![A screenshot](screen.png)
+
