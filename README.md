@@ -24,8 +24,5 @@ Or use `opam pin`.
 
 ## Amazing graphics
 
-<video autoplay loop>
-  <source src="media/screen.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+See [the video](https://raw.githubusercontent.com/c-cube/space_camels/master/media/screen.webm)
 
