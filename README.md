@@ -24,5 +24,8 @@ Or use `opam pin`.
 
 ## Amazing graphics
 
-![A screenshot](screen.png)
+<video autoplay loop>
+  <source src="media/screen.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
 
