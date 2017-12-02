@@ -15,7 +15,7 @@ remove: [
 depends: [
     "ocamlfind" {build}
     "containers"
-    "notty"
+    "notty" { >= "0.2" }
     "lwt"
 ]
 tags: [ "space" "camels" "game" ]

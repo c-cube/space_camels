@@ -150,9 +150,6 @@ let img_of_state state =
     in
     I.(i </> strf "frame %d" state.count)
 
-let q_char = Char.code 'q'
-let space_char = Char.code ' '
-
 let fps = 20
 
 (* main game loop *)
@@ -167,8 +164,8 @@ let loop_input term state =
     (function
       | `Key (`Arrow `Left, _) -> move_left state
       | `Key (`Arrow `Right, _) -> move_right state
-      | `Key (`Uchar n, _) when n=space_char -> shoot state
-      | `Key (`Uchar n, _) when n=q_char -> raise Exit
+      | `Key (`ASCII ' ', _) -> shoot state
+      | `Key (`ASCII 'q', _) -> raise Exit
       | `Resize _ -> failwith "resize is not supported"
       | _ -> ())
     (Term.events term)
